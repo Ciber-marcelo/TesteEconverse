@@ -107,8 +107,8 @@ export const Main3 = styled.div`
    display: flex;
    gap: 62px;
 
-   ::-webkit-scrollbar {
-      width: 124px;
+   :active button{
+      background-color: #F71930;
    }
 `;
 

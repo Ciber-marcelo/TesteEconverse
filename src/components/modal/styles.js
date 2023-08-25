@@ -27,8 +27,9 @@ export const Design = styled.div`
   }
 `;
 
-export const P1 = styled.div`
-  color: #041E50;
+export const P1 = styled.p`
+   margin-top: 56px;
+   color: #041E50;
    font-size: 12px;
    font-style: normal;
    font-weight: 400;
@@ -36,8 +37,15 @@ export const P1 = styled.div`
    letter-spacing: 0.6px;
 `;
 
-export const P2 = styled.div`
+export const P2 = styled.p`
 `;
 
-export const P3 = styled.div`
+export const P3 = styled.p`
 `;
+
+export const X = styled.button`
+   width: 20px;
+   height: 20px;
+`;
+
+
