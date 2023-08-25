@@ -7,22 +7,37 @@ export const Container = styled.div`
   left: 0;
   right: 0;
   background-color: rgb(0,0,0, 0.7);
-  /* zIndex: 1000; */
-  
-  img{
-    width: 172px;
-    height: 62.664px;
-  }
 `;
 
 export const Design = styled.div`
+  display: flex;
   position: fixed;
   width: 769px;
   height: 299px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 150px;
   background-Color: #fff;
   
+  img{
+   width: 247px;
+   height: 192.199px;
+   margin-top: 56px;
+   margin-left: 56px;
+  }
+`;
+
+export const P1 = styled.div`
+  color: #041E50;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 100%; /* 12px */
+   letter-spacing: 0.6px;
+`;
+
+export const P2 = styled.div`
+`;
+
+export const P3 = styled.div`
 `;
