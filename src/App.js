@@ -52,7 +52,7 @@ import { IconButton } from "./components/iconButoon";
 import { PhoneButton } from "./components/phoneButton";
 import { Mark } from "./components/mark";
 import { Footer } from "./components/footer";
-import Modal from './components/modal';
+import { Modal } from './components/modal';
 
 function App() {
   const [phonesJSON, setPhonesJSON] = useState(["merda2", "merda"]);
@@ -69,7 +69,6 @@ function App() {
     const response = await axios.get(url)
     const loadPhones = response.data.products
     setPhone(loadPhones)
-    // console.log("batat", response.data, "uva", loadPhones, "1", phonesJSON)
   }
 
   async function setPhone(loadPhones) {
@@ -159,7 +158,6 @@ function App() {
                 text4="ou 2x de R$ 49,95 sem juros"
                 text5="Frete grátis"
                 textButton="Comprar"
-                // onClick={() => setOpenModal(true)}
                 onClick={() => Mdetails(item)}
               />
             )
@@ -228,8 +226,8 @@ function App() {
         setModalOpen={() => setOpenModal(!openModal)}
         image={modalItem.photo}
         info1={modalItem.productName}
-        info2={modalItem.descriptionShort}
-        info3={modalItem.price}
+        info2={modalItem.price}
+        info3={modalItem.descriptionShort}
       />
     </Main>
   );
