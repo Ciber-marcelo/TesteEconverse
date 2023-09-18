@@ -37,8 +37,8 @@ import {
   Phones,
   VectorL,
   VectorR,
-  Text,
-  Marks
+  Marks,
+  Text
 } from "./styles";
 import axios from 'axios';
 
