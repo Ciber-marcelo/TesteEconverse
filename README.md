@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img alt="Logo" src="https://cdn.discordapp.com/attachments/1113816777483370506/1113817874239344710/image.png" width="100%">
-  <img alt="Logo" src="https://cdn.discordapp.com/attachments/1113816777483370506/1113817874239344710/image.png" width="100%">
+  <img alt="Logo" src="https://cdn.discordapp.com/attachments/794432010441064468/1153437451424124928/image.png" width="49%">
+  <img alt="Logo" src="https://cdn.discordapp.com/attachments/794432010441064468/1153437575877505034/image.png" width="49%">
 </h1>
 
 ## Indice
